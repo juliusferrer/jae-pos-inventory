@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "date",      "order": "ASCENDING"  },
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "date",      "order": "DESCENDING" },
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "inventory_logs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "inventoryItemId", "order": "ASCENDING"  },
+        { "fieldPath": "createdAt",       "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "menu_items",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "category",  "order": "ASCENDING" },
+        { "fieldPath": "name",      "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
