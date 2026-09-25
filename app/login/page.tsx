@@ -229,12 +229,12 @@ export default function LoginPage() {
               </form>
 
               <div className="relative z-10 my-6 flex items-center gap-3">
-                <div className="h-px flex-1 bg-white/15" />
+                {/* <div className="h-px flex-1 bg-white/15" />
                 <span className="text-xs font-medium text-slate-400">OR</span>
-                <div className="h-px flex-1 bg-white/15" />
+                <div className="h-px flex-1 bg-white/15" /> */}
               </div>
 
-              <div className="relative z-10 rounded-2xl border border-white/10 bg-slate-800/45 px-4 py-4 text-sm text-slate-300">
+              <div className="relative z-10 rounded-2xl border center text-center border-white/10 bg-slate-800/45 px-4 py-4 text-sm text-slate-300">
                 <p>© 2026&nbsp; Developed by Julius Ferrer.</p>
               </div>
             </div>
